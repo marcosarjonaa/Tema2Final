@@ -15,9 +15,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/ic_app"
+        android:icon="@drawable/ic_launcher_foreground"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_app"
+        android:roundIcon="@drawable/ic_launcher_foreground"
         android:supportsRtl="true"
         android:theme="@style/Theme.Movil"
         tools:targetApi="31">
@@ -36,6 +36,10 @@
         <activity
             android:name=".MeterTelefono"
             android:exported="false" />
+        <activity android:name=".Dados"
+            android:exported="false"/>
+        <activity android:name=".Chistes"
+            android:exported="false"/>
     </application>
 
 </manifest>
